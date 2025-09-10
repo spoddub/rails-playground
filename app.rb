@@ -2,7 +2,7 @@
 require 'rack'
 require 'thin'
 
-class MyApp
+class MyApp # rubocop:disable Style/Documentation
   def call(env)
     [200, { 'Content-Type' => 'text/html; charset=utf-8' }, ['Hello!']]
   end
