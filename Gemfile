@@ -1,7 +1,7 @@
-# Gemfile
 source 'https://rubygems.org'
 
 ruby '3.4.5'
 
-gem 'rack', '~> 2.2'
-gem 'thin', '~> 2.0'
+gem 'puma',   '~> 7.0'
+gem 'rack',   '~> 3.2'
+gem 'rackup', '~> 2.1'
