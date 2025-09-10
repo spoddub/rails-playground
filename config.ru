@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class MyApp
   def call(_env)
     [200, { 'Content-Type' => 'text/html' }, ['Hello rackup']]
